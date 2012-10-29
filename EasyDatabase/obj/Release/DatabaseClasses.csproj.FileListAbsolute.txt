@@ -1,0 +1,5 @@
+\\isad.isadroot.ex.ac.uk\uoe\user\visual studio 2010\Projects\DatabaseClasses\DatabaseClasses\bin\Release\DatabaseClasses.dll
+\\isad.isadroot.ex.ac.uk\uoe\user\visual studio 2010\Projects\DatabaseClasses\DatabaseClasses\bin\Release\DatabaseClasses.pdb
+\\isad.isadroot.ex.ac.uk\uoe\user\visual studio 2010\Projects\DatabaseClasses\DatabaseClasses\obj\Release\ResolveAssemblyReference.cache
+\\isad.isadroot.ex.ac.uk\uoe\user\visual studio 2010\Projects\DatabaseClasses\DatabaseClasses\obj\Release\DatabaseClasses.dll
+\\isad.isadroot.ex.ac.uk\uoe\user\visual studio 2010\Projects\DatabaseClasses\DatabaseClasses\obj\Release\DatabaseClasses.pdb

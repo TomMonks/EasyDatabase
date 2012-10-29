@@ -1,0 +1,5 @@
+\\isad.isadroot.ex.ac.uk\UOE\User\Visual Studio 2010\Projects\DatabaseClasses\DatabaseClasses\bin\Debug\EasyDatabase.dll
+\\isad.isadroot.ex.ac.uk\UOE\User\Visual Studio 2010\Projects\DatabaseClasses\DatabaseClasses\bin\Debug\EasyDatabase.pdb
+\\isad.isadroot.ex.ac.uk\UOE\User\Visual Studio 2010\Projects\DatabaseClasses\DatabaseClasses\obj\Debug\EasyDatabase.csprojResolveAssemblyReference.cache
+\\isad.isadroot.ex.ac.uk\UOE\User\Visual Studio 2010\Projects\DatabaseClasses\DatabaseClasses\obj\Debug\EasyDatabase.dll
+\\isad.isadroot.ex.ac.uk\UOE\User\Visual Studio 2010\Projects\DatabaseClasses\DatabaseClasses\obj\Debug\EasyDatabase.pdb
