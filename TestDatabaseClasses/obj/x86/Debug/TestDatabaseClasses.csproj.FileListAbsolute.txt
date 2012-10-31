@@ -26,3 +26,17 @@ U:\Visual Studio 2010\Projects\EasyDatabase\TestDatabaseClasses\bin\Debug\EasyDa
 U:\Visual Studio 2010\Projects\EasyDatabase\TestDatabaseClasses\bin\Debug\ExcelDotNet.pdb
 U:\Visual Studio 2010\Projects\EasyDatabase\TestDatabaseClasses\bin\Debug\Microsoft.Office.Interop.Excel.xml
 U:\Visual Studio 2010\Projects\EasyDatabase\TestDatabaseClasses\bin\Debug\office.xml
+\\isad.isadroot.ex.ac.uk\UOE\User\Visual Studio 2010\Projects\EasyDatabase\TestDatabaseClasses\obj\x86\Debug\TestDatabaseClasses.exe
+\\isad.isadroot.ex.ac.uk\UOE\User\Visual Studio 2010\Projects\EasyDatabase\TestDatabaseClasses\obj\x86\Debug\TestDatabaseClasses.pdb
+\\isad.isadroot.ex.ac.uk\UOE\User\Visual Studio 2010\Projects\EasyDatabase\TestDatabaseClasses\bin\Debug\TestDatabaseClasses.exe
+\\isad.isadroot.ex.ac.uk\UOE\User\Visual Studio 2010\Projects\EasyDatabase\TestDatabaseClasses\bin\Debug\TestDatabaseClasses.pdb
+\\isad.isadroot.ex.ac.uk\UOE\User\Visual Studio 2010\Projects\EasyDatabase\TestDatabaseClasses\bin\Debug\EasyDatabase.dll
+\\isad.isadroot.ex.ac.uk\UOE\User\Visual Studio 2010\Projects\EasyDatabase\TestDatabaseClasses\bin\Debug\ExcelDotNet.dll
+\\isad.isadroot.ex.ac.uk\UOE\User\Visual Studio 2010\Projects\EasyDatabase\TestDatabaseClasses\bin\Debug\Microsoft.Office.Interop.Excel.dll
+\\isad.isadroot.ex.ac.uk\UOE\User\Visual Studio 2010\Projects\EasyDatabase\TestDatabaseClasses\bin\Debug\office.dll
+\\isad.isadroot.ex.ac.uk\UOE\User\Visual Studio 2010\Projects\EasyDatabase\TestDatabaseClasses\bin\Debug\Microsoft.Vbe.Interop.dll
+\\isad.isadroot.ex.ac.uk\UOE\User\Visual Studio 2010\Projects\EasyDatabase\TestDatabaseClasses\bin\Debug\EasyDatabase.pdb
+\\isad.isadroot.ex.ac.uk\UOE\User\Visual Studio 2010\Projects\EasyDatabase\TestDatabaseClasses\bin\Debug\ExcelDotNet.pdb
+\\isad.isadroot.ex.ac.uk\UOE\User\Visual Studio 2010\Projects\EasyDatabase\TestDatabaseClasses\bin\Debug\Microsoft.Office.Interop.Excel.xml
+\\isad.isadroot.ex.ac.uk\UOE\User\Visual Studio 2010\Projects\EasyDatabase\TestDatabaseClasses\bin\Debug\office.xml
+\\isad.isadroot.ex.ac.uk\UOE\User\Visual Studio 2010\Projects\EasyDatabase\TestDatabaseClasses\obj\x86\Debug\TestDatabaseClasses.csprojResolveAssemblyReference.cache
