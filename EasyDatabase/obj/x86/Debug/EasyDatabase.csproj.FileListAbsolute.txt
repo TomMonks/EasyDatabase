@@ -1,0 +1,4 @@
+\\isad.isadroot.ex.ac.uk\uoe\User\Visual Studio 2012\Projects\EasyDatabase\EasyDatabase\bin\x86\Debug\EasyDatabase.dll
+\\isad.isadroot.ex.ac.uk\uoe\User\Visual Studio 2012\Projects\EasyDatabase\EasyDatabase\bin\x86\Debug\EasyDatabase.pdb
+\\isad.isadroot.ex.ac.uk\uoe\User\Visual Studio 2012\Projects\EasyDatabase\EasyDatabase\obj\x86\Debug\EasyDatabase.dll
+\\isad.isadroot.ex.ac.uk\uoe\User\Visual Studio 2012\Projects\EasyDatabase\EasyDatabase\obj\x86\Debug\EasyDatabase.pdb
