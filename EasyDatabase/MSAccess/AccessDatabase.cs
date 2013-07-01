@@ -8,7 +8,13 @@ using System.Data.OleDb;
 
 namespace EasyDatabase.MSAccess
 {
-	
+
+    public static class AccessDatabaseCollections
+    {
+        public static string Tables = "Tables";
+        public static string Queries = "Procedures";
+    }
+
 	/// <summary>
 	/// Query an access database.  Connection string valid for 2007 onwards.
 	/// </summary>
@@ -54,6 +60,16 @@ namespace EasyDatabase.MSAccess
             return results;
 
         }
+
+        public DataTable GetSchema(string collectionName)
+        {
+            conn = new OleDbConnection(connection);
+            conn.Open();
+            return conn.GetSchema(collectionName);
+            conn.Close();
+        }
+
+
 
         private OleDbCommand CreateCommand(string sql)
         {

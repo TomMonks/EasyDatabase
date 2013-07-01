@@ -10,5 +10,6 @@ namespace EasyDatabase
     public interface IDatabase
     {
         DataTable ExecuteQuery(string SQL);
+        DataTable GetSchema(string collectionName);
     }
 }

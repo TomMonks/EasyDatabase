@@ -8,3 +8,7 @@
 \\isad.isadroot.ex.ac.uk\UOE\User\Visual Studio 2010\Projects\EasyDatabase\EasyDatabase\obj\Debug\EasyDatabase.csprojResolveAssemblyReference.cache
 \\isad.isadroot.ex.ac.uk\UOE\User\Visual Studio 2010\Projects\EasyDatabase\EasyDatabase\obj\Debug\EasyDatabase.dll
 \\isad.isadroot.ex.ac.uk\UOE\User\Visual Studio 2010\Projects\EasyDatabase\EasyDatabase\obj\Debug\EasyDatabase.pdb
+C:\Visual Studio\EasyDatabase\EasyDatabase\obj\Debug\EasyDatabase.dll
+C:\Visual Studio\EasyDatabase\EasyDatabase\obj\Debug\EasyDatabase.pdb
+C:\Visual Studio\EasyDatabase\EasyDatabase\bin\Debug\EasyDatabase.dll
+C:\Visual Studio\EasyDatabase\EasyDatabase\bin\Debug\EasyDatabase.pdb

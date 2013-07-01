@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{FB8A8FD7-FC26-4977-9C98-EA1C424027F9}</ProjectGuid>
+    <ProjectGuid>{D5CCD28D-BD61-4BC8-8467-B956959E5DED}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>EasyDatabase</RootNamespace>
@@ -21,7 +21,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>0</WarningLevel>
-    <PlatformTarget>x86</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -34,6 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -41,12 +42,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MSAccess\AccessDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MSAccess\AccessSystemDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MSAccess\AccessSystemSQLFactory.cs" />
     <Compile Include="SQL\From\AbstractTableJoin.cs" />
     <Compile Include="MSAccess\AccessDatabase.cs" />
     <Compile Include="SQL\From\IFromClause.cs" />
     <Compile Include="SQL\From\SimpleFromClause.cs" />
     <Compile Include="SQL\ISQLFactory.cs" />
     <Compile Include="SQL\Restrict\BetweenDatesClause.cs" />
+    <Compile Include="SQL\Restrict\InClause.cs" />
     <Compile Include="SQL\Select\ComplexSelectStatment.cs" />
     <Compile Include="SQL\Restrict\DateClause.cs" />
     <Compile Include="SQL\From\ComplexFromClause.cs" />
