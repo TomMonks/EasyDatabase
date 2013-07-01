@@ -34,6 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -42,8 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MSAccess\AbstractAccessDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="MSAccess\AccessDataGridView.cs">
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MSAccess\AccessObjectDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MSAccess\AccessObjectSQLFactory.cs" />
+    <Compile Include="MSAccess\AccessSchemaViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MSAccess\AccessSchemaViewer.Designer.cs">
+      <DependentUpon>AccessSchemaViewer.cs</DependentUpon>
     </Compile>
     <Compile Include="MSAccess\AccessSystemDataGridView.cs">
       <SubType>Component</SubType>
@@ -74,7 +88,14 @@
     <Compile Include="SQL\StandardQueryBuilder.cs" />
     <Compile Include="SQL\TableAlias.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="MSAccess\AccessSchemaViewer.resx">
+      <DependentUpon>AccessSchemaViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MSAccess\AccessSystemDataGridView.resx">
+      <DependentUpon>AccessSystemDataGridView.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -2,38 +2,19 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 using System.Data;
 
-using EasyDatabase.SQL;
-
-using EasyDatabase.MSAccess;
-
 namespace EasyDatabase.MSAccess
 {
-    public class AccessDataGridView: DataGridView
+    /// <summary>
+    /// The standard AccessDataGridview class does not process the results after the query
+    /// </summary>
+    public class AccessDataGridView : AbstractAccessDataGridView 
     {
-        protected IDatabase database;
-        protected QueryBuilder query;
-
-        public AccessDataGridView() {
-
-            
-        }
-
-        public IDatabase Database { set { this.database = value; } }
-        public QueryBuilder Query { set { this.query = value; } }
-
-        public void Execute()
+        protected override System.Data.DataTable ProcessResults(DataTable results)
         {
-            var results = this.database.ExecuteQuery(this.query.BuildSQL());
-            this.DataSource = results;
+            return results;
         }
-
-
-
-
     }
 }
