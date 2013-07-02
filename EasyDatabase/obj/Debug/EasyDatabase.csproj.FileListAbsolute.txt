@@ -15,3 +15,4 @@ C:\Visual Studio\EasyDatabase\EasyDatabase\bin\Debug\EasyDatabase.pdb
 C:\Visual Studio\EasyDatabase\EasyDatabase\obj\Debug\EasyDatabase.MSAccess.AccessSchemaViewer.resources
 C:\Visual Studio\EasyDatabase\EasyDatabase\obj\Debug\EasyDatabase.csproj.GenerateResource.Cache
 C:\Visual Studio\EasyDatabase\EasyDatabase\obj\Debug\EasyDatabase.MSAccess.AccessSystemDataGridView.resources
+C:\Visual Studio\EasyDatabase\EasyDatabase\obj\Debug\EasyDatabase.csprojResolveAssemblyReference.cache

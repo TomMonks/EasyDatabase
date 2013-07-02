@@ -85,6 +85,7 @@
     <Compile Include="SQL\Select\BasicSelectStatement.cs" />
     <Compile Include="SQL\Restrict\StandardClause.cs" />
     <Compile Include="SQL\Select\ISelectStatement.cs" />
+    <Compile Include="SQL\SimpleSQLFactory.cs" />
     <Compile Include="SQL\StandardQueryBuilder.cs" />
     <Compile Include="SQL\TableAlias.cs" />
   </ItemGroup>

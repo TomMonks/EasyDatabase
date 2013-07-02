@@ -31,6 +31,33 @@ namespace EasyDatabase.MSAccess
 
         public SchemaMode Mode { get; set; }
 
+
+        /// <summary>
+        /// The MS Access table name selected
+        /// </summary>
+        public string TableName
+        {
+            get
+            {
+                return this.accessSystemDataGridView1.SelectedCells[0].Value.ToString();
+            }
+        }
+
+
+
+
+
+        /// <summary>
+        /// The MS Access table field selected
+        /// </summary>
+        public string FieldName
+        {
+            get
+            {
+                return this.accessObjectDataGridView1.SelectedCells[0].Value.ToString();
+            }
+        }
+
         public IDatabase Database
         {
             get
