@@ -12,8 +12,8 @@ using EasyDatabase.SQL;
 
 namespace EasyDatabase.MSAccess
 {
+    public delegate void DataGridCellSelectedEventHandler(object sender, DataGridViewCellEventArgs args);
     
-
     public partial class AccessSchemaViewer : UserControl
     {
         public enum SchemaMode{
@@ -21,17 +21,22 @@ namespace EasyDatabase.MSAccess
             Queries = 1
         };
 
+        public DataGridCellSelectedEventHandler OnTableSelectEvent;
+        public DataGridCellSelectedEventHandler OnFieldSelectEvent;
+
         protected IDatabase db;
 
         public AccessSchemaViewer()
         {
             InitializeComponent();
             this.Mode = SchemaMode.Tables;
+            
         }
 
         public SchemaMode Mode { get; set; }
 
 
+       
         /// <summary>
         /// The MS Access table name selected
         /// </summary>
@@ -88,7 +93,13 @@ namespace EasyDatabase.MSAccess
                 var tableName = "[" + this.accessSystemDataGridView1[2, 0].Value.ToString() + "]";
                 
                 GetObjectSchema(tableName);
+                this.accessSystemDataGridView1[2, 0].Selected = true;
+                if (null != this.OnTableSelectEvent)
+                {
+                    this.OnTableSelectEvent(this, new DataGridViewCellEventArgs(2,0));
+                }
             }
+
 
         }
 
@@ -99,6 +110,11 @@ namespace EasyDatabase.MSAccess
             var tableName = "[" + this.accessSystemDataGridView1[e.ColumnIndex, e.RowIndex].Value.ToString() +"]";
 
             GetObjectSchema(tableName);
+
+            if (null != this.OnTableSelectEvent)
+            {
+                this.OnTableSelectEvent(this, e);
+            }
         }
 
         private void GetObjectSchema(string tableName)
@@ -112,9 +128,11 @@ namespace EasyDatabase.MSAccess
 
         private void accessObjectDataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            
+            if (null != this.OnFieldSelectEvent)
+            {
+                this.OnFieldSelectEvent(this, e);
+            }
         }
-
 
     }
 }
