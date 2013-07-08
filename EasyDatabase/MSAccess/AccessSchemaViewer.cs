@@ -93,6 +93,8 @@ namespace EasyDatabase.MSAccess
                 var tableName = "[" + this.accessSystemDataGridView1[2, 0].Value.ToString() + "]";
                 
                 GetObjectSchema(tableName);
+
+                //this.accessObjectDataGridView1.DataSource = db.GetTableSchema(tableName);
                 this.accessSystemDataGridView1[2, 0].Selected = true;
                 if (null != this.OnTableSelectEvent)
                 {
@@ -110,6 +112,7 @@ namespace EasyDatabase.MSAccess
             var tableName = "[" + this.accessSystemDataGridView1[e.ColumnIndex, e.RowIndex].Value.ToString() +"]";
 
             GetObjectSchema(tableName);
+            //this.accessObjectDataGridView1.DataSource = db.GetTableSchema(tableName);
 
             if (null != this.OnTableSelectEvent)
             {

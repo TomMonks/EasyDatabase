@@ -27,7 +27,12 @@ namespace EasyDatabase.MSAccess
         /// <param name="collection">The type to return.  Use AccessDatabaseCollections object to parameterise</param>
         public void GetSchema(IDatabase db, string collection)
         {
-            this.DataSource = db.GetSchema(collection);
+
+            DataTable all = db.GetSchema(collection);
+            var subset = all.Select("TABLE_TYPE = 'TABLE' OR TABLE_TYPE = 'VIEW'").CopyToDataTable();
+            this.DataSource = subset;
+
+            //this.DataSource = db.GetSchema(collection);
 
             foreach (DataGridViewColumn col in this.Columns)
             {

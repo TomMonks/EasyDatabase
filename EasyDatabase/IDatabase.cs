@@ -11,5 +11,6 @@ namespace EasyDatabase
     {
         DataTable ExecuteQuery(string SQL);
         DataTable GetSchema(string collectionName);
+        //DataTable GetTableSchema(string tableName);
     }
 }

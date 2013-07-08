@@ -36,11 +36,17 @@
             // 
             // accessObjectDataGridView1
             // 
+            this.accessObjectDataGridView1.AllowUserToAddRows = false;
+            this.accessObjectDataGridView1.AllowUserToDeleteRows = false;
+            this.accessObjectDataGridView1.AllowUserToResizeColumns = false;
+            this.accessObjectDataGridView1.AllowUserToResizeRows = false;
             this.accessObjectDataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.accessObjectDataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.accessObjectDataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.accessObjectDataGridView1.Location = new System.Drawing.Point(304, 3);
             this.accessObjectDataGridView1.Name = "accessObjectDataGridView1";
+            this.accessObjectDataGridView1.RowHeadersVisible = false;
             this.accessObjectDataGridView1.Size = new System.Drawing.Size(289, 200);
             this.accessObjectDataGridView1.TabIndex = 1;
             this.accessObjectDataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.accessObjectDataGridView1_CellClick);

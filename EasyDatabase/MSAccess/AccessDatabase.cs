@@ -63,12 +63,28 @@ namespace EasyDatabase.MSAccess
 
         public DataTable GetSchema(string collectionName)
         {
+            DataTable results;
+
             conn = new OleDbConnection(connection);
             conn.Open();
-            return conn.GetSchema(collectionName);
+            results =  conn.GetSchema(collectionName);
             conn.Close();
+            return results;
         }
 
+
+        //public DataTable GetTableSchema(string tableName)
+        //{
+        //    DataTable results;
+
+            
+
+        //    conn = new OleDbConnection(connection);
+        //    conn.Open();
+        //    results = conn.GetSchema("Columns", new string[]{null, null, null, tableName});
+        //    conn.Close();
+        //    return results;
+        //}
 
 
         private OleDbCommand CreateCommand(string sql)
